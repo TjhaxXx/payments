@@ -63,7 +63,7 @@
                     justify-content: space-around;
                     flex-direction: row;
                     div.col3 {
-                        @include box(rgb(230, 247, 253));
+                        @include box(rgb(0, 0, 0));
                         div.arrange {
                             display: flex;
                             flex-direction: column;
