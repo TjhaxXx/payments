@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px 20px 30px 20px;
+  padding: 40px;
+}
+body div.table {
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body div.table div.col1 {
+  background-color: #b8e2f3;
+  border: 1px solid #b8e2f3;
+  border-radius: 20px;
+  width: 320px;
+  height: 520px;
+  padding: 10px;
+  padding-left: 40px;
+}
+body div.table div.col1 p {
+  text-align: left;
+}
+body div.table div.col1 div.card {
+  margin: 70px auto 0;
+  width: 260px;
+  background: black;
+  border: 5px solid white;
+  border-radius: 12px;
+  position: relative;
+  right: 10px;
+}
+body div.table div.col1 .card .profile img {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+body div.table div.col1 .profile {
+  display: flex;
+}
+body div.table div.col1 .roles p {
+  margin-left: 10px;
+  color: grey;
+  margin-top: 0;
+}
+body div.table div.col1 .project {
+  margin-bottom: 30px;
+  line-height: 17px;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+body div.table div.col2 {
+  width: 80%;
+}
+body div.table div.col2 div.row1 {
+  padding-left: 120px;
+}
+body div.table div.col2 div.row1 h2 {
+  padding-top: 30px;
+}
+body div.table div.col2 div.row2 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+body div.table div.col2 div.row2 div.col3 {
+  border: 1px solid #e6f7fd;
+  background-color: #e6f7fd;
+  border-radius: 20px;
+  width: 260px;
+  padding: 20px;
+  margin: 10px;
+}
+body div.table div.col2 div.row2 div.col3 div.arrange {
+  display: flex;
+  flex-direction: column;
+}
+body div.table div.col2 div.row2 div.col3 div.arrange button .btn {
+  padding: 3px 7px;
+  background-color: #5c5cc9;
+  color: white;
+  border-radius: 12px;
+  border: none;
+}
+body div.table div.col2 div.row2 div.col4 {
+  border: 1px solid #5c5cc9;
+  background-color: #5c5cc9;
+  border-radius: 20px;
+  width: 260px;
+  padding: 20px;
+  margin: 10px;
+}
+body div.table div.col2 div.row2 div.col4 div.arrange {
+  display: flex;
+  flex-direction: column;
+}
+body div.table div.col2 div.row2 div.col4 div.arrange button .btn {
+  padding: 3px 7px;
+  background-color: white;
+  color: white;
+  border-radius: 12px;
+  border: none;
+}
+body i {
+  color: blue;
+  font-size: 50px;
+  float: left;
+}/*# sourceMappingURL=main.css.map */
